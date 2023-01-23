@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "739482296007",
+    "project_id": "recipize-78eb4",
+    "storage_bucket": "recipize-78eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739482296007:android:db02eca05b07f1052128e2",
+        "android_client_info": {
+          "package_name": "com.example.recipize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739482296007-4sjgdlppikq796vl68uq4mjm4c5fc4ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHRCss2pVE_4o2WmLobm7u5OvbFd0g4xY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739482296007-4sjgdlppikq796vl68uq4mjm4c5fc4ic.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "739482296007-ralg6kg37112kuc9i73at060k91a8khq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.recipize"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

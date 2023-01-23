@@ -1,0 +1,53 @@
+name: Recipize
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera:
+  path_provider:
+  path:
+  tflite:
+  intl: ^0.16.1
+  provider: ^4.1.1
+  flutter_exif_rotation:
+  http:
+  webview_flutter:
+  cupertino_icons: ^1.0.0
+  badges: ^2.0.3
+  flutter_svg: ^1.1.6
+
+dev_dependencies:
+  pedantic: ^1.9.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Abel
+      fonts:
+        - asset: assets/fonts/Abel-Regular.ttf
+
+    - family: IndieFlower
+      fonts:
+          - asset: assets/fonts/IndieFlower-Regular.ttf
+
+
+  assets:
+    - assets/models/ssd_mobilenet.tflite
+    - assets/models/labels_ssd_mobilenet.txt
+    - assets/icons/chefIcon2.png
